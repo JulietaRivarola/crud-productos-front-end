@@ -27,7 +27,7 @@ import {  obtenerProductos, eliminarProducto } from './API.js';
                     <p class="text-gray-600">${precio}</p>
                 </td>
                 <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5">
-                    <a class="text-teal-600 hover:text-teal-900 mr-5">Editar</a>
+                    <a href="modificar-producto.html?id=${id}" data-producto="${id}" class="text-teal-600 hover:text-teal-900 editar mr-5">Editar</a> 
                     <a href="#" data-producto="${id}" class="text-red-600 hover:text-red-900 eliminar">Eliminar</a>
                 </td>
             `;
